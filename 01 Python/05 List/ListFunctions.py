@@ -167,3 +167,7 @@ print(zipped)   # [(1, 'a'), (2, 'b'), (3, 'c')]
 # unzip the zipped list
 unzipped = list(zip(*zipped))   # Unzip the list of tuples
 print(unzipped)   # [(1, 2, 3), ('a', 'b', 'c')]
+
+# sum() : Returns the sum of all items in the list.
+my_list = [1, 2, 3]
+print(sum(my_list))   # 6 (the sum of the items in the list)
