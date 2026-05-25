@@ -41,3 +41,23 @@ print(len(my_list))  # Getting the length of the list
 # Looping through a List
 for item in my_list:
     print(item)
+
+# Arrays vs Lists
+# Fixed vs Dynamic size
+# Python list are slower
+# Take more memory than arrays
+# Convenient to use and more flexible than arrays
+
+
+# Disadvantages of List
+# 1. Slow
+# 2. Memory inefficient
+
+# 3. Risky usage (mutable)  
+    # Example : 
+my_list = [1, 2, 3]
+another_list = my_list  # another_list references the same list
+another_list.append(4)  # Modifying another_list also modifies my_list
+print(my_list)  # Output: [1, 2, 3, 4]
+print(another_list)  # Output: [1, 2, 3, 4]
+# But we did not intend to modify my_list when we modified another_list. -> List are mutable and can lead to unintended side effects if not used carefully.
