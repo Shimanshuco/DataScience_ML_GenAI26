@@ -1,0 +1,13 @@
+Types of Data used for I/O : 
+    1. Text 
+    2. Binary
+
+Hence, there are 2 files types to deal with : 
+    1. Text files - All program files are text files
+    2. Binary files - Images/music/videos/exe files
+
+How file I/O is done in most programming language : 
+    1. Open a file
+    2. Read/Write Data
+    3. Closing the file
+
