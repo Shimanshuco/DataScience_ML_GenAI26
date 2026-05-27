@@ -35,3 +35,16 @@ f = open('sample.txt','a')
 for item in my_list:
     f.write(item)
 f.close()
+
+
+
+# Probelm 
+my_dict = {'name':'John','age':30,'city':'New York'}
+f = open('sample.txt','a')
+# f.write(my_dict) # This will give an error because we cannot write a dictionary in a text file directly.
+f.write(str(my_dict)) # This will convert the dictionary into a string and then write it in the file.
+f.close()
+
+with open('sample.txt','a') as f: # This is a better way to handle files because it will automatically close the file after the block of code is executed.
+    print(f.read())
+    print(type(f.read())) # This will print the type of data read from the file. It will be a string because we are reading from a text file.

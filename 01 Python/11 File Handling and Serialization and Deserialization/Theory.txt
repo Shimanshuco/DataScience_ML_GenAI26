@@ -11,3 +11,7 @@ How file I/O is done in most programming language :
     2. Read/Write Data
     3. Closing the file
 
+Problem with Text files : 
+    1. Can't work with binary files like Images
+    2. Not good for other data types like int/float/list/tuples
+    
